@@ -1,0 +1,17 @@
+.about {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    background-color: #111;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
