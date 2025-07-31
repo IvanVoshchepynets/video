@@ -1,12 +1,39 @@
 .outro {
-    min-height: 100vh;
-    padding: 4rem 2rem;
+    min-height: 80vh;
+    padding: 10vh 10vw;
     background-color: #000;
-    color: #ccc;
-    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+}
+
+.outro h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.outro p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.7;
+}
+
+.outro-btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.outro-btn:hover {
+    background-color: white;
+    color: black;
 }
